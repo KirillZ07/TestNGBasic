@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Bambi/IdeaProjects/TestNGBasic/target">
+        <classes>
+            <class name="class001.Priority"></class>
+            <class name="class002.DataProviderDemo"></class>
+            <class name="class001.AssertionBasic"></class>
+        </classes>
+    </test>
+</suite>

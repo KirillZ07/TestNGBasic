@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="parallel">
+        <classes>
+            <class name="class001.AssertionBasic"></class>
+            <class name="class002.SoftAssertDemo"></class>
+        </classes>
+    </test>
+</suite>

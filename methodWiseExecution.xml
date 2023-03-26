@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="false" name="You can rename this into anything">
+        <classes>
+            <class name="class001.Priority">
+                <methods>
+                    <include name="Atest"/>
+                    <include name="Btest"/>
+                    <exclude name="Ctest"/>
+                </methods>
+            </class>
+            <class name="class001.AssertionBasic">
+                <methods>
+                    <include name="invalidCredentials"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

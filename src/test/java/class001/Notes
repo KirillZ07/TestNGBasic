@@ -1,0 +1,18 @@
+Assert.assertEquals(actual, expected) assertion
+● This assertion is useful to compare expected and actual values If both values match then its fine and will continue execution.
+But if fails then immediately it will mark that specific test method as fail and exit from that test method.
+
+Assert.assertNotEquals(actual, expected, message) assertion
+● It's function is opposite to assertEquals assertion. Means if both sides values will not match then this assertion will pass else it will fail.
+Here you can write your own message for failure condition.
+Simplest example of Assert.assertNotEquals in selenium webdriver
+
+Assert.assertTrue(condition) Assertion
+● assertTrue assertion is generally used for Boolean condition true. It will pass if condition returns "true".
+If it will return false then it will fail and skip software test execution from that specific
+method.
+
+Assert.assertFalse(condition) Assertion
+● It will check boolean value returned by condition and will pass if returned value is "False".
+If returned value is pass then this assertion will fail and skip execution from current test method.
+
